@@ -26,6 +26,4 @@ export class FriendAge {
   }
 }
 
-const Andrew = new FriendAge("Andrew", 1998, 12, 21);
 
-console.log(Andrew.returnAge());

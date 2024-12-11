@@ -1,4 +1,5 @@
 export function costCalculator(amount) {
+  amount = Number(amount);
   if (typeof amount !== "number" || amount < 0) {
     console.log("Invalid input");
   }
@@ -7,7 +8,5 @@ export function costCalculator(amount) {
   const interestRate = 0.01;
   const totalToPay = amount * interestRate + amount + fee;
   
-  return totalToPay;
+  return totalToPay.toFixed(2);
 }
-
-console.log(costCalculator(124));

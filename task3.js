@@ -16,4 +16,3 @@ export function ageCalculator(year, month, day) {
   return age;
 }
 
-console.log(ageCalculator(1998, 12, 21));
